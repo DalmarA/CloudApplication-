@@ -1,7 +1,7 @@
 <!doctype html>
 
 
-
+ 
     
  <html lang="en" style="height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -42,29 +42,8 @@
     <link rel="apple-touch-icon" href="https://rhildred.github.io/impress.js/apple-touch-icon.png" />
 </head>
 
-<!--
-    
-    Body element is used by impress.js to set some useful class names, that will allow you to detect
-    the support and state of the presentation in CSS or other scripts.
-    
-    First very useful class name is `impress-not-supported`. This class means, that browser doesn't
-    support features required by impress.js, so you should apply some fallback styles in your CSS.
-    It's not necessary to add it manually on this element. If the script detects that browser is not
-    good enough it will add this class, but keeping it in HTML means that users without JavaScript
-    will also get fallback styles.
-    
-    When impress.js script detects that browser supports all required features, this class name will
-    be removed.
-    
-    The class name on body element also depends on currently active presentation step. More details about
-    it can be found later, when `hint` element is being described.
-    
--->
 <body class="impress-not-supported">
 
-<!--
-    This Browser Doesnt Support Impress
--->
 <div class="fallback-message">
     <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
     <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
@@ -115,6 +94,10 @@
     </div>
 
 
+    <div id="Slide0" class="step slide" data-x="-1000" data-y="-1500">
+        <q> Cloud Applications </q>
+    </div>
+
 
 
     <div id="impress" style="position: absolute; transform-origin: left top 0px; transition: all 1000ms ease-in-out 500ms; transform-style: preserve-3d; top: 50%; left: 50%; transform: perspective(1259.02px) scale(0.794271);"><div style="position: absolute; transform-origin: left top 0px; transition: all 1000ms ease-in-out 0ms; transform-style: preserve-3d; transform: rotateZ(0deg) rotateY(0deg) rotateX(0deg) translate3d(-500px, 7100px, 0px);">
@@ -133,7 +116,11 @@
         </div>
 
 
-
+    <div id="slide2" class="step slide future" data-x="500" data-y="-6400" style="position: absolute; transform: translate(-50%, -50%) translate3d(500px, -6400px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+        <h1>Server Vs Client</h1>
+        <img src="./(Cloud) Application Software_files/DemoSpreadsheetWithChart.png" style="width:100%">
+        <p>Servers are powerful computers dedicated to managing file servers , print Servers, or serving up resource for clients. Servers are usually headless meaning there are no peripheral devices, this is done to lower electricity consumption because servers are usually on 24/7. Clients are PC, laptops and mobile devices which users run applications and rely on servers for resources, such as files, devices, media, and even processing power.</p>
+    </div>
 
     <!--
         
